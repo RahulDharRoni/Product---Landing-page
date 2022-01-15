@@ -14,7 +14,36 @@ h1{
 }
 
 /* header banner style */
-.header-main-section{
+.header-main-section {
+    display: flex;
+    /* padding: 0 50px; */
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    width: 582px;
+    height: 270px;
+}
+.header-img{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 475px;
+    height:475px ;
+    margin-left: 50px;
+}
+.header-button .hireme-btn{
+    background-color: 
+    #E02C6D;
+    justify-content: center;
+    padding: 10px 30px;
+    color:rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 41px;
+}
+
+/*.header-main-section{
     display: flex;
     padding: 0 50px;
 }
@@ -48,7 +77,7 @@ h1{
     width: 475px;
     height:475px ;
     margin-left: 50px;
-}
+} */
 
 /* product section */
 .product-section h1{
@@ -136,30 +165,35 @@ footer h3{
 /* media queries */
 /* mobile device */
 @media only screen and (max-width: 688px) {
-    
-    h1{
-        font-size: 28px;
-    }
-    .header-menu h2{
+    .header-menu{
         text-align: center;
     }
-    .header-banner{
-        width: 100%;
-        padding: 10px;
-        text-align: center;
+    .header-main-section{
         display: flex;
-        
+        align-items: center;
+        flex-direction: column; 
+        flex-wrap: wrap;  
     }
     .header-content{
-        display: flex;
-        justify-content: center;
+        margin: 0;
+
     }
     .header-h1{
+        text-align: center;
         width: 100%;
     }
-    .header-content-2{
-        width: 100%;
+    .header-h1 h1{
+        font-weight: bold;
+        font-size: 28px;
     }
+    .header-h1 p{
+        font-size: 14px;
+    }
+    .header-img{
+        margin: auto;
+    }
+    
+    
     .products{
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
@@ -170,5 +204,4 @@ footer h3{
     footer h3,.fa-class{
         font-size: 12px;
     }
-
 }
