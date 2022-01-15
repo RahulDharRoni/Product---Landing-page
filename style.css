@@ -10,14 +10,13 @@ h1{
 /* header-section style */
 .header-menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 50px;
 }
 
 /* header banner style */
 .header-main-section{
     display: flex;
-    padding: 0 100px;
+    padding: 0 50px;
 }
 .header-content{
     width: 582px;
@@ -48,6 +47,7 @@ h1{
     align-items: center;
     width: 475px;
     height:475px ;
+    margin-left: 50px;
 }
 
 /* product section */
