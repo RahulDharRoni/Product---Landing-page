@@ -183,6 +183,15 @@ footer h3{
         grid-template-columns: repeat(1, 1fr);
         margin: 0;
     }
+    .work-expo{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+    .work .thumb img{
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
     footer h2{
         font-size: 16px;
     }
