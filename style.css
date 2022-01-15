@@ -7,6 +7,9 @@ h1{
     font-size: 52px;
     font-weight: 700;
 }
+.hr{
+    width: 500px;
+}
 /* header-section style */
 .header-area h2{
     margin-left: 70px;
